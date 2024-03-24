@@ -5,26 +5,15 @@ import Feed from "./components/Feed";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { NavUl } from "./components/Nav";
 import NavList from "./style-components/NavList";
-import { useEffect } from "react";
+import Notification from "./components/Notification";
 
 function App() {
   const isMinWidth840px = useMediaQuery("(min-width: 52.6em)");
 
-  useEffect(() => {
-    const div = document.createElement("div");
-    div.innerHTML = "Get 50% dicount on BabyCode membership";
-    div.classList.add("notification");
-    document.querySelector("body").insertAdjacentElement("afterbegin", div);
-    setTimeout(() => {
-      console.log("hello");
-      div.remove();
-    }, 5000);
-    console.log("as");
-  });
-
   return (
     <>
       <GlobalStyles />
+      {isMinWidth840px && <Notification />}
       <AppLayout>
         {isMinWidth840px && <Sidebar />}
 
