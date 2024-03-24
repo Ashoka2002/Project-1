@@ -16,7 +16,7 @@ function MobileFeatures() {
           Quick Actions
         </Heading>
         <GuideContainer text="App Guide Video" imgSrc="/data/youtube (8) 1.png" />
-        <GuideContainer text="App Guide Video" imgSrc="/data/whatsapp (9) 1.png" />
+        <GuideContainer text="Help & Support" imgSrc="/data/whatsapp (9) 1.png" />
         <ShareAppComponent />
       </div>
     </Container>

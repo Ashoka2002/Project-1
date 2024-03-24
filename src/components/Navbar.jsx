@@ -93,6 +93,7 @@ const SubNav = styled.div`
       font-weight: 500;
       box-shadow: var(--shadow-lg);
       border-radius: 50px;
+      backface-visibility: none;
 
       color: var(--color-grey-0);
       position: relative;
