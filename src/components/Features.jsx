@@ -58,7 +58,7 @@ function FeaturesComponent({ isMinWidth840px }) {
 
 export default FeaturesComponent;
 
-const Features = styled.div`
+const Features = styled.section`
   margin-top: 2rem;
   display: grid;
   column-gap: 5rem;
@@ -100,5 +100,9 @@ const Cards = styled.div`
   @media only screen and (max-width: 52.5em) {
     grid-template-columns: repeat(3, minmax(10rem, 1fr));
     margin-bottom: 5rem;
+
+    & div p {
+      font-size: 1.4rem;
+    }
   }
 `;

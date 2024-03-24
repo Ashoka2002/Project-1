@@ -23,7 +23,7 @@ function Sidebar() {
 
 export default Sidebar;
 
-const Container = styled.div`
+const Container = styled.aside`
   background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
   min-height: 100vh;
   display: flex;
@@ -31,7 +31,7 @@ const Container = styled.div`
   justify-content: space-between;
 `;
 
-const Navigation = styled.div`
+const Navigation = styled.nav`
   margin-bottom: 1rem;
 `;
 

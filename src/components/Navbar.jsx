@@ -31,7 +31,7 @@ export function NavbarMobile() {
   );
 }
 
-const Navbar = styled.div`
+const Navbar = styled.header`
   ${(props) =>
     props.type === "primary" &&
     css`

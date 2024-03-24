@@ -136,6 +136,15 @@ h6 {
   hyphens: auto;
 }
 
+.notification{
+  background-color: var(--background-secondary);
+  text-align: center;
+  color: var(--color-2);
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}
+
 img {
   max-width: 100%;
 

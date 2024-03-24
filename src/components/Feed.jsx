@@ -41,7 +41,7 @@ function Feed() {
 
 export default Feed;
 
-const Container = styled.div`
+const Container = styled.main`
   min-height: 100vh;
   background-color: var(--background-primary);
   padding-bottom: 2rem;
@@ -62,7 +62,7 @@ const Dashboard = styled.div`
   }
 `;
 
-const Summary = styled.div`
+const Summary = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr) minmax(25rem, 32rem);
   gap: 2rem;
